@@ -1,8 +1,8 @@
 <?php
 /*
-EasyBitcoin-PHP
+EasyWhitecoin-PHP
 
-A simple class for making calls to Bitcoin's API using PHP.
+A simple class for making calls to Whitecoins API using PHP.
 https://github.com/Whitecoin-org/EasyWhitecoin-PHP
 
 ====================
@@ -32,8 +32,8 @@ THE SOFTWARE.
 
 ====================
 
-// Initialize Bitcoin connection/object
-$whitecoin = new Bitcoin('username','password');
+// Initialize Whitecoin connection/object
+$whitecoin = new Whitecoin('username','password');
 
 // Optionally, you can specify a host and port.
 $whitecoin = new Whitecoin('username','password','host','port');

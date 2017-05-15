@@ -1,4 +1,4 @@
-EasyBitcoin-PHP
+EasyWhitecoin-PHP
 ===============
 
 A simple class for making calls to Whitecoins API using PHP.
@@ -10,16 +10,16 @@ Getting Started
     ```php
     require_once('easywhitecoin.php');
     ```
-2. Initialize Bitcoin connection/object:
+2. Initialize Whitecoin connection/object:
 
     ```php
-    $whitecoin = new Bitcoin('username','password');
+    $whitecoin = new Whitecoin('username','password');
     ```
 
     Optionally, you can specify a host, port. Default is HTTP on localhost port 8332.
 
     ```php
-    $whitecoin = new Bitcoin('username','password','localhost','8332');
+    $whitecoin = new Whitecoin('username','password','localhost','8332');
     ```
 
     If you wish to make an SSL connection you can set an optional CA certificate or leave blank
